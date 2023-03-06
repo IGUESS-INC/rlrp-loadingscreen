@@ -133,10 +133,6 @@ pauseButton.onclick = function() {
 	music.pause();
 }
 
-window.onload = function() {
-music.play();
-}
-
 music.addEventListener("play", function () {
 	playButton.style.visibility = "hidden";
 	pause.style.visibility = "visible";
