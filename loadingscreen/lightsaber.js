@@ -49,6 +49,7 @@ function load(){
 	artwork.setAttribute("style", "background: url('"+playlist[currentSong]['artwork']+"') center no-repeat;");
 	music.innerHTML = '<source src="'+playlist[currentSong]['mp3']+'" type="audio/mp3">';
 	music.load();
+	music.play();
 }
 
 function reset(){ 
@@ -130,6 +131,10 @@ playButton.onclick = function() {
 
 pauseButton.onclick = function() {
 	music.pause();
+}
+
+window.onload  pauseButton.onclick = function() {
+music.play();
 }
 
 music.addEventListener("play", function () {
