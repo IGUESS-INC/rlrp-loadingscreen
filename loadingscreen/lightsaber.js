@@ -133,7 +133,7 @@ pauseButton.onclick = function() {
 	music.pause();
 }
 
-window.onload  pauseButton.onclick = function() {
+window.onload = function() {
 music.play();
 }
 
