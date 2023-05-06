@@ -1,10 +1,10 @@
 var playlist = [
 	{
-		"song"    : "Rammstein - Sonne",
-		"album"   : "Mutter",
-		"artist"  : "Rammstein",
-		"artwork" : "imagens/sonne.jpg",
-		"mp3"     : "musicas/sonne.mp3"
+		"song"    : "Arctic Monkeys - Arabella",
+		"album"   : "AM",
+		"artist"  : "Arctic Monkeys",
+		"artwork" : "imagens/arabella.jpg",
+		"mp3"     : "musicas/arabella.mp3"
 	},
     
 ];
