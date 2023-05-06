@@ -1,10 +1,17 @@
 var playlist = [
 	{
-		"song"    : "Arctic Monkeys - Arabella",
+		"song"    : "Arabella",
 		"album"   : "AM",
 		"artist"  : "Arctic Monkeys",
 		"artwork" : "imagens/arabella.jpg",
 		"mp3"     : "musicas/arabella.mp3"
+	},
+	{
+		"song"    : "Do I Wanna Know?",
+		"album"   : "AM",
+		"artist"  : "Arctic Monkeys",
+		"artwork" : "imagens/arabella.jpg",
+		"mp3"     : "musicas/doiwannaknow.mp3"
 	},
     
 ];
